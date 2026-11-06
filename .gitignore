@@ -1,0 +1,38 @@
+# Quartus output
+output_files/
+db/
+incremental_db/
+simulation/
+timing/
+greybox_tmp/
+hc_output/
+hps_isw_handoff/
+.qsys_edit/
+*.qws
+*.rpt
+*.summary
+*.smsg
+*.done
+*.pin
+*.jdi
+*.sld
+*.qar
+*.qarlog
+*.bak
+*.orig
+*.rej
+c5_pin_model_dump.txt
+PLLJ_PLLSPE_INFO.txt
+
+# Written by sys/build_id.tcl at every compile
+build_id.v
+jtag.cdf
+
+# Python
+__pycache__/
+*.pyc
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*~
